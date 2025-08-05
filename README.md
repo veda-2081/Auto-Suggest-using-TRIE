@@ -30,7 +30,7 @@ Returns a list of all words in the TRIE that begin with the specified prefix.
 
 ## 📄 Trie.java Overview
 
-```java
+java
 Trie trie = new Trie();
 
 trie.insert("apple");
