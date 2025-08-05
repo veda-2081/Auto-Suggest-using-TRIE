@@ -40,11 +40,15 @@ trie.insert("application");
 System.out.println(trie.search("app"));        // true
 System.out.println(trie.autoSuggest("ap"));    // [app, apple, application]
 System.out.println(trie.autoSuggest("bat"));   // []
+
+---
+
 📁 File Structure
 ├── .gitignore           # Git ignored files
 ├── LICENSE              # Open-source license (MIT recommended)
 ├── README.md            # Project documentation
 ├── Trie.java            # Complete TRIE implementation
+---
 💡 Real-World Applications of TRIE
 🔎 Autocomplete systems (Google search, IDEs, mobile keyboards)
 
@@ -55,10 +59,11 @@ System.out.println(trie.autoSuggest("bat"));   // []
 📚 Search engines and dictionaries
 
 🧬 DNA sequence analysis
+---
 📄 License
 This project is licensed under the MIT License.
 See the LICENSE file for more information.
-
+---
 🙌 Contributions
 Pull requests and suggestions are welcome!
 If you find a bug or want to improve this project, feel free to fork and contribute.
